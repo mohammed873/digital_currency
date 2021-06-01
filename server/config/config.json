@@ -1,0 +1,36 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "med0618228133",
+      "database": "cryptocurrency",
+      "host": "127.0.0.1",
+      "port": 5432,
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "database_test",
+      "host": "127.0.0.1",
+      "port": 5432,
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "lsmmuqbzvfnggd",
+      "password": "5413ebea7e2a25c45c06341773beab52e9aaa2efb5ff1fec5f8eb07bae85bdb3",
+      "database": "dc45evmjvqmje6",
+      "host": "ec2-52-0-114-209.compute-1.amazonaws.com",
+      "port": 5432,
+      "dialect": "postgres",
+      "ssl": true,
+      "protocol": "postgres",
+  
+      "logging": true,
+      "dialectOptions": {
+          "ssl": {
+              "require": true,
+              "rejectUnauthorized": false 
+          }
+      }
+    }
+  }
